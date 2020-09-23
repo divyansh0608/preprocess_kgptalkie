@@ -10,6 +10,7 @@ from spacy.lang.en.stop_words import STOP_WORDS as stopwords
 from bs4 import BeautifulSoup
 import unicodedata
 from textblob import TextBlob
+python -m spacy download en
 import en_core_web_sm
 
 from sklearn.feature_extraction.text import CountVectorizer
